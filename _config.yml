@@ -1,3 +1,4 @@
+description: has a lot to do
 gist:
   noscript: false
 highlighter: rouge
@@ -8,3 +9,4 @@ kramdown:
 lsi: false
 safe: true
 theme: jekyll-theme-primer
+title: a rain dog too
