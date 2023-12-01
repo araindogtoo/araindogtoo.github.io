@@ -7,4 +7,4 @@ kramdown:
   syntax_highlighter: rouge
 lsi: false
 safe: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-primer
