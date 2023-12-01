@@ -33,3 +33,29 @@ body {
   line-height: 1.5;
   margin: 0;
 }
+
+div{
+  box-sizing: border-box;
+}
+
+div.container-lg {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1012px;
+}
+
+div.markdown-body {
+  font-family: monospace;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+div.my-5 {
+  margin-bottom: 32px !important;
+  margin-top: 32px !important;
+}
+
+div.px-3 {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
