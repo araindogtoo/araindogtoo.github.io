@@ -50,6 +50,24 @@ div.markdown-body {
   word-wrap: break-word;
 }
 
+div.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+div.markdown-body > :first-child {
+  margin-top: 0 !important;
+}
+
+div.markdown-body h1 {
+  border-bottom: 1px solid $base0;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  padding-bottom: 0.3em;
+}
+
 div.my-5 {
   margin-bottom: 32px !important;
   margin-top: 32px !important;
@@ -58,4 +76,14 @@ div.my-5 {
 div.px-3 {
   padding-left: 16px !important;
   padding-right: 16px !important;
+}
+
+h1 {
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+  color: $blue;
+  text-decoration: none;
 }
