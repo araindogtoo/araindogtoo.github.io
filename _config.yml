@@ -1,3 +1,5 @@
-theme: jekyll-theme-.github
-title: a rain dog too
 description: has much to do
+plugins:
+- jekyll-remote-theme
+remote_theme: pages-themes/primer@v0.2.0
+title: a rain dog too
